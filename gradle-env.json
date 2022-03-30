@@ -1426,6 +1426,21 @@
         {
           "id": {
             "group": "org.jetbrains.intellij.plugins",
+            "name": "structure-base",
+            "version": "3.171",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "structure-base-3.171.pom",
+          "path": "org/jetbrains/intellij/plugins/structure-base/3.171",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/intellij/plugins/structure-base/3.171/structure-base-3.171.pom"
+          ],
+          "sha256": "7f9d1b58287c4928dbc6db23739e12191d0f7f3001bede200a5de265577ee450"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.intellij.plugins",
             "name": "structure-intellij",
             "version": "3.171",
             "type": "jar",
