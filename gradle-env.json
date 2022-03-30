@@ -1215,6 +1215,36 @@
         },
         {
           "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "annotations-13.0.jar",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+          ],
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "annotations-13.0.pom",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom"
+          ],
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+        },
+        {
+          "id": {
             "group": "org.jetbrains.changelog",
             "name": "org.jetbrains.changelog.gradle.plugin",
             "version": "0.6.2",
@@ -1937,6 +1967,36 @@
             "https://cache-redirector.jetbrains.com/intellij-dependencies/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom"
           ],
           "sha256": "c8bf8cf6f84cc58d2df52f337e1008a87693a9becc5da14154df73a0dbd9513d"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "annotations-13.0.jar",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+          ],
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "annotations-13.0.pom",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom"
+          ],
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
         },
         {
           "id": {
