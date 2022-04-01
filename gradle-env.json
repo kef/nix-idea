@@ -1767,6 +1767,51 @@
             "https://plugins.gradle.org/m2/org/tukaani/xz/1.6/xz-1.6.pom"
           ],
           "sha256": "06843f984cf0ad3ecd4196861404ddc4af83ec37a1eb7a1773ab89db02b4020f"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-html-assembly",
+            "version": "0.7.2",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlinx-html-assembly-0.7.2.pom",
+          "path": "org/jetbrains/kotlinx/kotlinx-html-assembly/0.7.2",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-html-assembly/0.7.2/kotlinx-html-assembly-0.7.2.pom"
+          ],
+          "sha256": "7e99feb570f79ef0644d059e60fa75bfbfc0cd09fe1fae120136d87c33a45303"
+        },
+        {
+          "id": {
+            "group": "software.amazon.awssdk",
+            "name": "aws-sdk-java-pom",
+            "version": "2.11.9",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "aws-sdk-java-pom-2.11.9.pom",
+          "path": "software/amazon/awssdk/aws-sdk-java-pom/2.11.9",
+          "urls": [
+            "https://plugins.gradle.org/m2/software/amazon/awssdk/aws-sdk-java-pom/2.11.9/aws-sdk-java-pom-2.11.9.pom"
+          ],
+          "sha256": "552869722d6845a8b161ce5e04fa9c0bc53d410364ed297dc6b04bf45117cc31"
+        },
+        {
+          "id": {
+            "group": "software.amazon.awssdk",
+            "name": "bom",
+            "version": "2.11.9",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "bom-2.11.9.pom",
+          "path": "software/amazon/awssdk/bom/2.11.9",
+          "urls": [
+            "https://plugins.gradle.org/m2/software/amazon/awssdk/bom/2.11.9/bom-2.11.9.pom"
+          ],
+          "sha256": "452a9c9e3f3eda2b895115246045ca80024ecbd0470eafab2b5bf1b44b689b59"
         }
       ],
       "buildscript": [],
