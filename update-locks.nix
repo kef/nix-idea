@@ -13,12 +13,6 @@ writeShellScriptBin "update-locks" ''
 
   echo gradle --write-verification-metadata sha256 help
   ${gradle}/bin/gradle --write-verification-metadata sha256 help
-
-#  echo "gradle buildEnvironment --write-locks"
-#  ${gradle}/bin/gradle buildEnvironment --write-locks
-#
-#  echo gradle --write-verification-metadata sha256 help
-#  ${gradle}/bin/gradle --write-verification-metadata sha256 help
 ''
 
 #  ${xml-to-json}/bin/xml-to-json -sam -t components gradle/verification-metadata.xml \
