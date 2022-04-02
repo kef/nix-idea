@@ -9,6 +9,7 @@ writeShellScriptBin "update-locks" ''
   set -eu -o pipefail
 
   ${gradle}/bin/gradle lock --write-locks
+#  ${gradle}/bin/gradle dependencies --write-locks
 
   ${gradle}/bin/gradle --write-verification-metadata sha256 dependencies
 

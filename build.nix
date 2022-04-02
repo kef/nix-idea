@@ -21,13 +21,15 @@ stdenv.mkDerivation {
       -DnixMavenRepo=file://${mavenRepo}
     runHook postBuild
   '';
-  
+#      -PnixMavenRepo=${mavenRepo}
+
   installPhase = ''
     runHook preInstall
     mkdir -p $out
     cp -r build/dist/* $out
     runHook postInstall
   '';
-  
+#    cp -r app/build/outputs/* $out
+
   dontStrip = true;
 }
