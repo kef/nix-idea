@@ -1,6 +1,6 @@
 { gradleGen, callPackage }:
 
-# TODO Determine how this was derived using gradle2nix.
+# TODO Determine how this was derived from this project using gradle2nix.
 let
   xxx = gradleGen {
     version = "6.6";
