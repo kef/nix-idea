@@ -6,7 +6,7 @@ lib.makeScope newScope (self: with self; {
   gradle = callPackage ./gradle.nix { };
 
   updateLocks = callPackage ./update-locks.nix {
-#    inherit (haskellPackages) xml-to-json;
+    inherit (haskellPackages) xml-to-json;
   };
 
   buildMavenRepo = callPackage ./maven-repo.nix { };
