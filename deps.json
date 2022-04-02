@@ -1,0 +1,1063 @@
+[
+  {
+    "group": "com.fasterxml",
+    "name": "oss-parent",
+    "version": "38",
+    "artifacts": {
+      "oss-parent-38.pom": "c83f8f45dfdca8d0b6b3661c60b3f84780f671b12e06f91ad5d1c1a1d1f966e8"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson",
+    "name": "jackson-base",
+    "version": "2.11.0",
+    "artifacts": {
+      "jackson-base-2.11.0.pom": "a4306f903647322bbba0054937b89a0c6424756a7fa029c85f2cbd756fde80ca"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson",
+    "name": "jackson-bom",
+    "version": "2.11.0",
+    "artifacts": {
+      "jackson-bom-2.11.0.pom": "5c90fb02e96e8bab2f32eb9492dd350968e294558431ac5a9a10afa6726133cb"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson",
+    "name": "jackson-parent",
+    "version": "2.11",
+    "artifacts": {
+      "jackson-parent-2.11.pom": "c1b0a13d8cfe63b40b0fae8458b99463169ed0c60f7fc963ef3f05257150cbe8"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson.core",
+    "name": "jackson-annotations",
+    "version": "2.11.0",
+    "artifacts": {
+      "jackson-annotations-2.11.0.jar": "b3b1fca6cb6469d4ea06635d964aaea91f86cc22fe42a9757c8a315148589e8e",
+      "jackson-annotations-2.11.0.pom": "c050143721729e8a9d062fb4d6559a43daca41abb19dc62824afaf2e835af1a1"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson.core",
+    "name": "jackson-core",
+    "version": "2.11.0",
+    "artifacts": {
+      "jackson-core-2.11.0.jar": "b504d81351fb088f1e1bbef6a701faa88d2cfc4350483aeaa19384c39a8133fd",
+      "jackson-core-2.11.0.pom": "46610691a52641ff31885241ad267f6c1e006f9cb37270aa21cb35a8f875ebc2"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson.core",
+    "name": "jackson-databind",
+    "version": "2.11.0",
+    "artifacts": {
+      "jackson-databind-2.11.0.jar": "54e72b9fa38fc37986ae7f6fc30ef704eec8010206bcd4d63546dccbbb47f4d1",
+      "jackson-databind-2.11.0.pom": "7f17bb8bff0a5e8b80ccfab131b4abd15f638766f8ffe685fa1dbe521f62a02b"
+    }
+  },
+  {
+    "group": "com.fasterxml.jackson.module",
+    "name": "jackson-module-kotlin",
+    "version": "2.11.0",
+    "artifacts": {
+      "jackson-module-kotlin-2.11.0.jar": "a52eadc27a1f5a1f117920c14a1dd893663d2e4c396b8e0e61576b1d972d7fe4",
+      "jackson-module-kotlin-2.11.0.pom": "b3858466a0360f79eabb7e8673f0ca7575ea3977a30e3c2fd331325bc81b4658"
+    }
+  },
+  {
+    "group": "com.github.JetBrains",
+    "name": "Grammar-Kit",
+    "version": "2020.1",
+    "artifacts": {
+      "Grammar-Kit-2020.1.jar": "383e64025d51559395421f3f1fd15acf49c770739934c63db32f0354437c47bb",
+      "Grammar-Kit-2020.1.pom": "87a0bb7b3dd3cdf12a68908cb0ae28c499230a4ab22bd684c87b207c0f715847"
+    }
+  },
+  {
+    "group": "com.jetbrains",
+    "name": "ideaIC",
+    "version": "2021.1.3",
+    "artifacts": {
+      "ivy-2021.1.3.xml": "5846697469fdc2223b53d26c76c30d108a30f6d2eccb369681bf8d511d7ebbb8",
+      "lib/HdrHistogram-2.1.4-2021.1.3.jar": "8e68b9608ab107690350b904eab24087785f69218e5c6acd860d28116eded708",
+      "lib/aapt2-proto-0.3.1-2021.1.3.jar": "a503219b89b0aaf7b7c6c9b3b17d69e655a6c619072b684a1ea4fbf1d7dc49da",
+      "lib/ant/lib/ant-2021.1.3.jar": "a31f74f3d00929ed0028f0d5c58c9a549c5885ef7d90db06f5ba1737e9c4520b",
+      "lib/ant/lib/ant-antlr-2021.1.3.jar": "d6db8596673e8e2a3a24dd552d5c2522f8fde84319e6ce4ee701d9116941a700",
+      "lib/ant/lib/ant-apache-bcel-2021.1.3.jar": "3d51859304011d3cee41d03107cd8e793084efbea3cd5e5e60d2f3c94018c011",
+      "lib/ant/lib/ant-apache-bsf-2021.1.3.jar": "566fbd2ef49dd481bb44e5e4f6d0d9bb890fdfb3d62c2d44a733822b09d04504",
+      "lib/ant/lib/ant-apache-log4j-2021.1.3.jar": "6f2c25e75b1e52448c838b99aff681fa02aa6c4c062bde24361fd1e1c3019390",
+      "lib/ant/lib/ant-apache-oro-2021.1.3.jar": "588b8d638cfbfbb0eca90fe1801500454cbacd0a6f31761cf6f392308de19806",
+      "lib/ant/lib/ant-apache-regexp-2021.1.3.jar": "afceff825702728cacabf520e9bdfa09b4bf781c3e17fcdaf6f38db498786ba6",
+      "lib/ant/lib/ant-apache-resolver-2021.1.3.jar": "f3df0b24f33c9c83b233b597c8e95775ce1bf320b11823aa6205c2f996918feb",
+      "lib/ant/lib/ant-apache-xalan2-2021.1.3.jar": "b2f918c05a199a238db1c16eb4feae05170dac797dc3281512778d93cf96f1a7",
+      "lib/ant/lib/ant-commons-logging-2021.1.3.jar": "41c2a4fbd614967ad431989e24b97e55b39bba7d702c290bd11db1cd79ba791c",
+      "lib/ant/lib/ant-commons-net-2021.1.3.jar": "e2f9ace46ea937b5e656360f1bdf87ae490f161ae733c0cf688b5303e5d38ca5",
+      "lib/ant/lib/ant-jai-2021.1.3.jar": "1b9aa1fc7ed09a3e67d622ca800a4a6713eeacb8649eccfaa444fea0e5c334bd",
+      "lib/ant/lib/ant-javamail-2021.1.3.jar": "30285cd3e34c83a2588c367cb96a5e7341e6a0969d33cddfa99112aa7f79e5cd",
+      "lib/ant/lib/ant-jdepend-2021.1.3.jar": "2993ef0d9e1c0ba8a75fc8eaf26ee5b1e4f3f034792c32806e218461522eba71",
+      "lib/ant/lib/ant-jmf-2021.1.3.jar": "8d26dbf492a8884f4309d1c88940c3061fe57715dbaeea60a09cdda1928e35e1",
+      "lib/ant/lib/ant-jsch-2021.1.3.jar": "ee1f2a5c6aa6d5c1ae9f183c9c422a967bc7ba472cfdb3d0017e9ee721ba5965",
+      "lib/ant/lib/ant-junit-2021.1.3.jar": "7660d911ef255bf308b8432902f9be395e10a4a8221d4ae31cc750fc30a07182",
+      "lib/ant/lib/ant-junit4-2021.1.3.jar": "402c43ad9d99dc06eccefdcb4f4bd4064d8eaad33837aeecd435a80d481e2f84",
+      "lib/ant/lib/ant-junitlauncher-2021.1.3.jar": "1e516ab1e4e6d4f1207d1650456a43f26f613365a4705dc6c98e41402cca43e2",
+      "lib/ant/lib/ant-launcher-2021.1.3.jar": "0387dc76d0ac68ba08a8eac53bc175cb505cd5625cc1b6c49727dfe20def455b",
+      "lib/ant/lib/ant-netrexx-2021.1.3.jar": "cfb231a1d5f2814619b68c778cb7d5ee4845fb0abde9ecd5d16b8d38e73661a7",
+      "lib/ant/lib/ant-swing-2021.1.3.jar": "3779be814c4cd76508eeda9d61a95ad379301525d065d074b4dc77d28223e1fe",
+      "lib/ant/lib/ant-testutil-2021.1.3.jar": "07519b63c8686d8eff53e8b786eb29f2ee76f9932a7d2943cf1ec3c4dec8b852",
+      "lib/ant/lib/ant-xz-2021.1.3.jar": "eca06bb19a4f55673f8f40d0a20eb0ee0342403ee5856b890d6c612e5facb027",
+      "lib/ap-validation-0.0.5-2021.1.3.jar": "6647c3dacda74eec3bb1d8046b2108f08a9df2eec7b4d1299e4869828fdfd3ab",
+      "lib/asm-7.1-2021.1.3.jar": "4ab2fa2b6d2cc9ccb1eaa05ea329c407b47b13ed2915f62f8c4b8cc96258d4de",
+      "lib/asm-all-9.1-2021.1.3.jar": "0f700038fc589b26ccf51b85064277f5534cb84d9827b92ff7df7106560039d3",
+      "lib/asm-analysis-7.1-2021.1.3.jar": "4612c0511a63db2a2570f07ad1959e19ed8eb703e4114da945cb85682519a55c",
+      "lib/asm-commons-7.1-2021.1.3.jar": "e5590489d8f1984d85bfeabd3b17374c59c28ae09d48ec4a0ebbd01959ecd358",
+      "lib/asm-tree-7.1-2021.1.3.jar": "c0e82b220b0a52c71c7ca2a58c99a2530696c7b58b173052b9d48fe3efb10073",
+      "lib/asm-util-7.1-2021.1.3.jar": "a24485517596ae1003dcf2329c044a2a861e5c25d4476a695ccaacf560c74d1a",
+      "lib/automaton-1.12-1-2021.1.3.jar": "d75c864362cb9fdb741809c2317a4dcfa7433c9043d773269b4a7b1b1c2234f9",
+      "lib/baksmali-2.2.4-2021.1.3.jar": "1990932c4c8cf334a640e52c4bd0426e4abb2c2fc94f1803711ea8460c06de50",
+      "lib/batik-codec-1.14.0-24-2021.1.3.jar": "acb32f2e106c9c91732415035893594e13e5f02da34bf59a19a2b1f49d523b16",
+      "lib/batik-transcoder-2021.1.3.jar": "61c09b4de3950a4b9b954af608bbaa99b0de610d598ab694d038d97a0293a9b9",
+      "lib/blockmap-1.0.2-2021.1.3.jar": "9efca5b657c4465b8878d2b96f40a5000bdea3c814d23d0bdd27b0f90167df9e",
+      "lib/bootstrap-2021.1.3.jar": "61eae5c17fd87a0c81908bc76d83f7f07cc0f2ef42ac866648ed0dbee9524ef7",
+      "lib/bouncy-castle-provider-2021.1.3.jar": "4d12f983ecb421f49244a18a8c3bb28218ce642870ae03c82f32b978845b19ae",
+      "lib/byte-buddy-agent-1.10.1-2021.1.3.jar": "7c403588401e6992958280358ab90679a82734bfd84c1947b8d6b12bca756037",
+      "lib/caffeine-2.8.8-2021.1.3.jar": "7e95b68a50b9440d8db2fecb72a5fb545aa23c3bc95d2ea70651a202c4c189f5",
+      "lib/cglib-nodep-3.2.4-2021.1.3.jar": "b40d7ac4400ea21dcf818f436a346ddd66b67c550811ccac5bbcbec095ab1287",
+      "lib/classgraph-4.8.102-2021.1.3.jar": "6fef88241f1c165017a4fe69fb660f7b90167115f813a5a45a241b87b8b7c1b3",
+      "lib/cli-parser-1.1.5-2021.1.3.jar": "a660da5f2d2d3b81c2c26fe367791afeea72b800a62c0883a34706aea612814a",
+      "lib/commons-cli-1.4-2021.1.3.jar": "fd3c7c9545a9cdb2051d1f9155c4f76b1e4ac5a57304404a6eedb578ffba7328",
+      "lib/commons-codec-1.15-2021.1.3.jar": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63",
+      "lib/commons-collections-3.2.2-2021.1.3.jar": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8",
+      "lib/commons-compress-1.20-2021.1.3.jar": "0aeb625c948c697ea7b205156e112363b59ed5e2551212cd4e460bdb72c7c06e",
+      "lib/commons-httpclient-3.1-patched-2021.1.3.jar": "5fa63ceb9ae35f944ef6fe86758b90b94c0452ded49844d609f00f8d243bb759",
+      "lib/commons-imaging-1.0-RC-1-2021.1.3.jar": "ba1cb46e5494286940b016da372ae94a60d2dbc411b6dac5db1e40128725d501",
+      "lib/commons-io-2.8.0-2021.1.3.jar": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074",
+      "lib/commons-lang3-3.10-2021.1.3.jar": "28968ae55fff465494083aeba856f8824c34902329882bf61e77246a91e25aa9",
+      "lib/commons-logging-1.2-2021.1.3.jar": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636",
+      "lib/commons-net-3.6-2021.1.3.jar": "d3b3866c61a47ba3bf040ab98e60c3010d027da0e7a99e1755e407dd47bc2702",
+      "lib/core-3.4.0-2021.1.3.jar": "65004806a669234c698fbe0755258100375fb01fe93b538455f3903713d4a50d",
+      "lib/coverage-common-2021.1.3.jar": "6549c072cf93b9f6c39713f0ae398a0d4505612deeafb9c5d0f63b074ae56a3f",
+      "lib/dbus-java-3.2.1-2021.1.3.jar": "ab65057cb8e169603c263e2eb79077e7e7ae040a5e1d7805a88af592535e7140",
+      "lib/dexlib2-2021.1.3.jar": "41211cc4659d2f30055cca9236e154a9a17eae2f151c1b65782b724e7aebfcc2",
+      "lib/dom-impl-2021.1.3.jar": "7a575938af59d1ebc1aa01c44f5f3c90a7f8ca7e66c32c9d2362ea9fd2e1977c",
+      "lib/dom-openapi-2021.1.3.jar": "e83056e94af44f635266e2004f09a3ee43ffd5503440a670ad8ddd3a5082054c",
+      "lib/duplicates-analysis-2021.1.3.jar": "d97c05870d738f71a299979bfb2aeaf257b3f0823dc4941149de972ba282feef",
+      "lib/error_prone_annotations-2.3.1-2021.1.3.jar": "10a5949aa0f95c8de4fd47edfe20534d2acefd8c224f8afea1f607e112816120",
+      "lib/external-system-rt-2021.1.3.jar": "660ce284c16f1b11536c04b9cb6b65569961e1e7615330c624fb0904fa0ede06",
+      "lib/fluent-hc-4.5.13-2021.1.3.jar": "f883b6b027d5e05c53e48e4fe3548715c52dbd590ffa3f52d039574f1a4d0728",
+      "lib/forms-1.1-preview-2021.1.3.jar": "26b0fc745ea051b57462be22a150c7600dbac6716b24cc60a5ecc0e8085c41a0",
+      "lib/forms_rt-2021.1.3.jar": "a4b445c9bb3b64388630b19b0455853edb8178ea60831fee8572fa5230d6f2bd",
+      "lib/grazie-spellchecker-0.1.9-2021.1.3.jar": "e7a81f7cdcf395db74d3d51badc056e77ac0daaa71bf5b82282cde771e21921d",
+      "lib/groovy-2.5.11-2021.1.3.jar": "8603d6d290aaef00882cffb39136825e5aab36f36cf5352e3f9bd90485ac3303",
+      "lib/groovy-json-2.5.11-2021.1.3.jar": "f45d32e029d373bc2fc215441d4a822ff22729d4448608d6895da4a0678baf74",
+      "lib/groovy-jsr223-2.5.11-2021.1.3.jar": "1c76a8a04842e103f2b8926a9476398c83859b4a29739b503b9f4be9b65b5497",
+      "lib/groovy-templates-2.5.11-2021.1.3.jar": "51680a972daf561e014fa43288f930adab7ca39850f50927ec30e933350e71cb",
+      "lib/groovy-xml-2.5.11-2021.1.3.jar": "9b419bdf90668440bcfab475bcbd13ba77346345ff28fd9faf1b709e5096d96f",
+      "lib/grpc-core-2021.1.3.jar": "8975e3b2e7e241a385c7be1c1bf74b764f95815581d07f7e6dd811c6300c0f30",
+      "lib/grpc-kotlin-stub-1.0.0-2021.1.3.jar": "d4fc2b07f5a398fee0bde6b2da31c2098cca61baa08950b97858d5f16b0fb26f",
+      "lib/grpc-netty-shaded-1.34.1-2021.1.3.jar": "fb6ec93ce6f9fa646f88573ee403085ec41e61ed8c46f5e3399ad34f002fb5df",
+      "lib/grpc-protobuf-2021.1.3.jar": "cb6a4c099f1beb59dbf02a071dcf78e66e3a7ca4df514c2c580e79d03902b4ba",
+      "lib/grpc-stub-1.34.1-2021.1.3.jar": "5709ee6a7bb7de74d5bfb68bf570f1916fe5a8d1b95ab9fa9a114f1c83952781",
+      "lib/gson-2.8.6-2021.1.3.jar": "aade5159262342342f2b2ab3e8817d013b9da4945dff5cc6d6764d3c24c8560c",
+      "lib/guava-2021.1.3.jar": "c46dd829a309fcfca01186307213306c78cc23a0751d60515a403cdeeccf95a9",
+      "lib/h2-mvstore-1.4.200-2021.1.3.jar": "961c5e4498d7046a85c1507263a0bac227930edeb28c92f8f929437114d46030",
+      "lib/http-client-2021.1.3.jar": "4f420105dd99fe77c6bbcc5041dcbc00a57d61fe35d8c299d72eb61ba30a4a21",
+      "lib/icons-2021.1.3.jar": "9767140e9732b2364e69bc29e874ef42dd001d80ba1ab9c4c8405a68a6541346",
+      "lib/icu4j-67.1-2021.1.3.jar": "c4eb904caf5fba968a2f1a3b8aef14df801e9329b21697209ca30bfcf153867d",
+      "lib/idea-2021.1.3.jar": "8d23fbe49c25d7f4b1810078399f1b53fce65093096d9791a5437d389227e892",
+      "lib/idea_rt-2021.1.3.jar": "05a3abb2a9502a51e7251028cd887be1418971ee107a232405f2703420a70194",
+      "lib/imageio-tiff-2021.1.3.jar": "4421ef930fb57a210aaa71cbb97d427fad44656f0dd54f8da4294b9da642371e",
+      "lib/imgscalr-lib-4.2-2021.1.3.jar": "6f128a71c5e87a16f810513a73ad3c77d0ee0bb622ee0ce1ead115bccbc76d0a",
+      "lib/ini4j-0.5.5-2-2021.1.3.jar": "6d342a8599aed6e2871c638c87e2533647d6a32aec1e0feaa871133ae21517a4",
+      "lib/intellij-coverage-agent-1.0.579-2021.1.3.jar": "38b393d36d5a994b81f3ee9101553db5fb9401093888fbf43ae440a212d44162",
+      "lib/intellij-deps-fastutil-8.5.2-6-2021.1.3.jar": "cf717f83bee2a269972c63c73d6bdcb8b31f09a8abc46d9b154a55857ee2a629",
+      "lib/intellij-dvcs-2021.1.3.jar": "ef7f5440374daf961690633f78a89fca2b3f7fe93048686da3e5a38db60af382",
+      "lib/intellij-test-discovery-agent-1.0.579-2021.1.3.jar": "c950ad6f5d9eabc51736a09679affe39cc626089e3e05237ec1b631c5df19d7c",
+      "lib/intellij-xml-2021.1.3.jar": "053815e9c2b026c72bc34137b0adf2b4fd7781f5f97bc83d189404db4ad0b8e1",
+      "lib/ion-java-1.6.2-3-2021.1.3.jar": "228de2332a701478f6ab4471ed902f5b1723b2f2d96ed931ec0cfd113bbab01a",
+      "lib/isorelax-20030108-2021.1.3.jar": "3427152431cf7f967f92e69e5cac16147c5d8fb4b4e5a8a72f5291788efcff8c",
+      "lib/jackson-core-2.12.0-2021.1.3.jar": "8acab5ef6e4f332bbb331b3fcd24d716598770d13a47e7215aa5ee625d1fd9c9",
+      "lib/jackson-databind-2021.1.3.jar": "76b869d2077529b2efa2e1f0f8d22a71c49393647b3664c4f6946f87d9e109c3",
+      "lib/jackson-dataformat-yaml-2.12.1-2021.1.3.jar": "58c9db6c379a7ab0bd4f5722a0695b812fdd698d073a8aaa24fae74d3b802f7a",
+      "lib/jackson-module-kotlin-2.12.0-2021.1.3.jar": "ee69650831f72ff2411026b507f3583e90ca88b40e9dae3067f87b34088e0ced",
+      "lib/java-compatibility-1.0.1-2021.1.3.jar": "1f799c9e7691a4dcddb1cb3e28e8517d5e6b27c2ac75093f39714afdc9216950",
+      "lib/java-string-similarity-1.2.1-2021.1.3.jar": "1c1f2f3f8c11512b12befdfd57c3a5a1a00e1660f91d9cb4ccd370e4aa7ae645",
+      "lib/java-utils-1.0.6-2021.1.3.jar": "c57f755a8042528f5c77cded3968493e0e7738e722c5a99508530e3598464ad8",
+      "lib/javax.activation-1.2.0-2021.1.3.jar": "785208e95cb9ba9f82856cfaa892bf338ec27b438e596c2ab07b32a51539d59f",
+      "lib/javax.annotation-api-1.3.2-2021.1.3.jar": "e04ba5195bcd555dc95650f7cc614d151e4bcd52d29a10b8aa2197f3ab89ab9b",
+      "lib/javax.inject-1-2021.1.3.jar": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff",
+      "lib/jaxb-api-2.3.1-2021.1.3.jar": "b03d038875e83799d35a9db8f2d79b56e84891fa50f2a3d928a3a9359c1de13a",
+      "lib/jaxb-runtime-2021.1.3.jar": "f926dc35a7c8625b0dd19a26441911c22d06367d1a3e74560dd00f870845c28d",
+      "lib/jaxen-1.2.0-2021.1.3.jar": "70feef9dd75ad064def05a3ce8975aeba515ee7d1be146d12199c8828a64174c",
+      "lib/jb-jdi-2.4-2021.1.3.jar": "1c2a5f0bf776e90e416df0eb5231206ee70385c7a80e84989447f96900ed3a07",
+      "lib/jcef-87.1.13-g481a82a-chromium-87.0.4280.141-api-1.2-2021.1.3.jar": "e1fc0bf74d40e81f473cd42bf861e676c5fa225f8ecc5ccb47c4b221920e24a3",
+      "lib/jcip-annotations-1.0-2021.1.3.jar": "be5805392060c71474bf6c9a67a099471274d30b83eef84bfc4e0889a4f1dcc0",
+      "lib/jdkAnnotations-2021.1.3.jar": "3d444c80f84fba4a157ac732a04f258243af9a62cf418f63c40c6f4f6ee629b6",
+      "lib/jdom-2021.1.3.jar": "a1585c2ec058a138d293737d4158f4ef90feff04f00c12c07083378105a8449e",
+      "lib/jediterm-pty-2.42-2021.1.3.jar": "8230806be476db7b4f2314e7a0ab4219845125d0756c6809930d54a9d624d95d",
+      "lib/jetCheck-0.2.2-2021.1.3.jar": "c5f95c97171311066a13eb750a6bb999fa7eeb43c1394705034926336c0b7b0f",
+      "lib/jffi-1.2.19-2021.1.3.jar": "e4345e3de83736ea67b40bb69645d6f936daaa7984618b003524c11e30f82cf3",
+      "lib/jffi-1.2.19-native-2021.1.3.jar": "1ad81c2d279a288d5292c2ac6e98cd8212fae64b24b21503c816f11ee5e070ec",
+      "lib/jing-20030619-2021.1.3.jar": "600acd9ebd37dd46e3a006bc6e748d68dfeb31cbf4881a84d06e6dc5cc5eed26",
+      "lib/jna-2021.1.3.jar": "f5f3f0588c40c0f054c465bd433193b0fa4dc666eb84228f2d54006e11099667",
+      "lib/jna-platform-2021.1.3.jar": "665cfbd30e68a78b1a0c73fbea741b91f7c6a5e762af6460d58f9ae376e4cab8",
+      "lib/jnr-a64asm-1.0.0-2021.1.3.jar": "53ae5ea7fa5c284e8279aa348e7b9de4548b0cae10bfd058fa217c791875e4cf",
+      "lib/jnr-constants-0.9.12-2021.1.3.jar": "f4be9e6bd4e2a24f0b37ee950ff8b252fa15b786987993374fb15c89f53c7654",
+      "lib/jnr-enxio-0.21-2021.1.3.jar": "63bd6238b5975b3aa62468f73bda58fb940611fa313066ab7e8a8c430aa347d7",
+      "lib/jnr-ffi-2.1.10-2021.1.3.jar": "51dc294f52037268bbe73f8bc6932243fb32e1a414337448aba7d1635669036f",
+      "lib/jnr-posix-3.0.50-2021.1.3.jar": "e0cb6c47ce209b9aa0f8c52b7aa3116c41b3c7f282fec54f170f9ec51f7c30f9",
+      "lib/jnr-unixsocket-0.23-2021.1.3.jar": "4291f7c46a2ec8264cedd8daf4535a59b58868addff6c8cca064b48bbce9db00",
+      "lib/jnr-x86asm-1.0.2-2021.1.3.jar": "39f3675b910e6e9b93825f8284bec9f4ad3044cd20a6f7c8ff9e2f8695ebf21e",
+      "lib/joni-2021.1.3.jar": "1d524076642e3511091e550bd412f37bc16e5807d999eb40553e4c7b06391c49",
+      "lib/jps-model-2021.1.3.jar": "e82b03df49cd92d05611ee6e566adf05ffd07c4e6f8ecd37a365e4a84213729c",
+      "lib/jsch-0.1.55-2021.1.3.jar": "d492b15a6d2ea3f1cc39c422c953c40c12289073dbe8360d98c0f6f9ec74fc44",
+      "lib/jshell-frontend-2021.1.3.jar": "e890c959e90389556a819046ba72f4bff625e4c6ed336556fea229197071a003",
+      "lib/json-2021.1.3.jar": "4f2d88ae72cbb827fe1eef4f23394d081489922a2cbb6b7530381ae75619be07",
+      "lib/jsonpath-2021.1.3.jar": "ce1015cfeebbc5db306de90a5fc4f8cbc2ac3e50d669e0f179cec7fa6a2d2c29",
+      "lib/jsoup-1.12.1-2021.1.3.jar": "4f961f68e47740dd7576c9685774a7b25b92f1017af24e2f707b30e893abade3",
+      "lib/jsp-base-openapi-2021.1.3.jar": "4a1f08fb5cafaaa3ca257ea171975909202dea534e4dac2314290ceb440e741e",
+      "lib/jsr305-3.0.2-2021.1.3.jar": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+      "lib/junit4-2021.1.3.jar": "ebbfd9779839b48b27115bb58113d4bf1ae650c37b6510bb760af215b3f82cfd",
+      "lib/kotlin-gradle-plugin-model-1.4.32-2021.1.3.jar": "628b5abe97e47fa8d1bf38e5e58be600f720084a871e8f77d9713a895d0e3b40",
+      "lib/kotlin-reflect-1.4.32-2021.1.3.jar": "0c1a9c91e3f44abeaa8582802c91c4ee50416dbdf7ade59ce0797552dd19b17f",
+      "lib/kotlin-stdlib-jdk8-2021.1.3.jar": "7de8d35b4704c87fcd756d1bca3e9c8ca8f999d0f80192c273c1a1647f412a00",
+      "lib/kotlin-test-2021.1.3.jar": "848176f338a12d8c02758c3838621e0351a0be3f5bd320a6e2ada4573d7c1522",
+      "lib/kotlinx-coroutines-jdk8-2021.1.3.jar": "285960e6c9fd8147833031b63a88d8944bf814300ec9419f102c739dc8867948",
+      "lib/kotlinx-serialization-core-jvm-1.0.1-2021.1.3.jar": "16dd687a3c4b8ac09eb20859da8c80372dca494d321e2c64823848ccd7f23651",
+      "lib/kotlinx-serialization-json-jvm-1.0.1-2021.1.3.jar": "da6374ca5abf3aff26c1c43d42a50df0384d1bd3a8ff63aa345f395d163ceda3",
+      "lib/kryo-2021.1.3.jar": "85e0ea423eaea8fee0900d5c0b3b1ed92010a2f07a126be7c8cea7da013d78e5",
+      "lib/ktor-websockets-1.5.0-2021.1.3.jar": "2b388a4f2b05a397e173393b555ab58e291352c8e8dfbf49fffb6c6f0f53f68c",
+      "lib/libam-instrumentation-data-proto-27.1.1.0-2021.1.3.jar": "fec6f18496b50aec0e1c81d4ebb953e9dbb690ae646728458f2bd876fc1e2983",
+      "lib/libstudio.proto-27.1.1.0-2021.1.3.jar": "ecefe012e6ab761bd91b86ce54c39d1a4c8aba75c4d63c529feea3c5446eac39",
+      "lib/log4j-2021.1.3.jar": "1b82a2acdcc9100d9b41669c0ba8cb5867ac259825b5cd74182f5916bd275e40",
+      "lib/lz4-java-1.7.1-2021.1.3.jar": "f1167a45d4b8002053670ef6991ca66d1bab9dcc03e4ef00183674d2f3fb9cac",
+      "lib/markdown-0.1.41-2021.1.3.jar": "c653bfc067331ac00ab145d82293562c6c9691f41b770451fb8cd612db1e0a7d",
+      "lib/markdownj-core-0.4.2-SNAPSHOT-2021.1.3.jar": "77b2ac241c3b0fb2abb4f10c05a41ce25d3d1cbbf6f67e617947598eda9783a9",
+      "lib/marketplace-zip-signer-0.1.3-2021.1.3.jar": "a0394c1bc915582e98de9a826b62f622757dde694ac4ba7c9870b73a111fea9c",
+      "lib/maven-resolver-provider-2021.1.3.jar": "a3090ca3f1cd8aa8f1768f2e077eff8d465fb5b8340f06293969b3857fc3b921",
+      "lib/microba-2021.1.3.jar": "0c31d0ffba0ba53a41079de71f682a84057047bb19f1ec6773cda21ca8b3ccb6",
+      "lib/miglayout-swing-2021.1.3.jar": "41b195f5172f9c88643e2b895f0e706771dda4d3c254fe37b72ae8f761bd98d2",
+      "lib/nanoxml-2.2.3-2021.1.3.jar": "fc2f091d083011819520a97571a7311964c8419ff018ea2c9ef3d518a6cad121",
+      "lib/netty-buffer-2021.1.3.jar": "f89e922d64e2dd35b28fd20cd57deb65607bfa00d052f51f0ef6414fe05cad2e",
+      "lib/netty-codec-http-2021.1.3.jar": "53300aec3c1bf83c8299230401ee662952c66f731eb894e749004f511c88b808",
+      "lib/netty-handler-proxy-2021.1.3.jar": "a82828ee0bc1581fb128c1ff6ea3e6fa06ef912ab38868e582cb398d923f8d07",
+      "lib/ngram-slp-0.0.3-2021.1.3.jar": "4ac10d8fb7e6326e09179fd83e664610a3362dc1d661fb32e5b2a19bcb9fc867",
+      "lib/objenesis-3.1-2021.1.3.jar": "cdb3d038c188de6f46ffd5cd930be2d5e5dba59c53b26437995d534e3db2fb80",
+      "lib/okhttp-2021.1.3.jar": "1263edf6f7815cce8968322e6f0fb2e5dfd4311624cea195f40495001d23953c",
+      "lib/oro-2.0.8-2021.1.3.jar": "e00ccdad5df7eb43fdee44232ef64602bf63807c2d133a7be83ba09fd49af26e",
+      "lib/owasp-java-html-sanitizer-20191001.1-2021.1.3.jar": "ea0a9cd92ecc4b5821f83d40e138dfed74e108e004cdec77456fbaf9e198b732",
+      "lib/platform-api-2021.1.3.jar": "4e71fd84bdba2b9555e7f13328a0c48bd170c44c5459b6f4ad11e3b4fd166eef",
+      "lib/platform-impl-2021.1.3.jar": "24b86bc6fd1509279947e7711e7d5a0842e8352c5d010e535b8df011708d8fea",
+      "lib/platform-objectSerializer-annotations-2021.1.3.jar": "abffaf97178769e2d25e311e19f59e096eb3dfee4c8612bc6b40ced387b48e2e",
+      "lib/platform-statistics-devkit-2021.1.3.jar": "2c8c1c0c3977017b9656956efad7e029bc94b724b904ced7a5029ebb5364912d",
+      "lib/plexus-utils-3.3.0-2021.1.3.jar": "76d174792540e2775af94d03d10fb2d3c776e2cd0ac0ebf427d3e570072bb9ce",
+      "lib/proto-27.1.1.0-2021.1.3.jar": "7166e19b1528d46df13cc3d6a12add91b146dbbd9058a51c608127f40ea2ff52",
+      "lib/protobuf-java-3.13.0-2021.1.3.jar": "ad3556c936ede8417e1a81f051a553c24a522ff33cc42f09007b1327a3d03dc1",
+      "lib/proxy-vole-2021.1.3.jar": "2a6bafed7965a529a7cab44023713827213ddd240a1131edc2a06354fb99a7f2",
+      "lib/pty4j-2021.1.3.jar": "a9fe2fb5404c4b91876f12bf2ebb3ce7a4115bfb734405597d877d99c63815b2",
+      "lib/qdox-2.0.0-2021.1.3.jar": "dcb91eed164a37b11d28bf6c8adfc627f294561e978c92f805820a86b290dd48",
+      "lib/rd-core-0.211.234-2021.1.3.jar": "4bf20599356f274381d9949824a8b8729ee51e14748d4dec75152e156283dc68",
+      "lib/rd-framework-0.211.234-2021.1.3.jar": "65ea90f5d3d681cefba4900b813415868929b0c9bc02e09e04c796dcdd3d0d94",
+      "lib/rd-swing-0.211.234-2021.1.3.jar": "939c1f62f4b1416e1cd7b8a5d72b331f209f6669f452219577ade7676d79229a",
+      "lib/resources-2021.1.3.jar": "b3fb043486fc459c09c735a6b82d003679b183ff9b6fe41119c7d57c0d04b513",
+      "lib/resources_en-2021.1.3.jar": "6dc6700d90c41e95d7d793f632436af5e849e3a1ef53e8a487bba9628b74ce12",
+      "lib/rhino-runtime-1.7.13-2021.1.3.jar": "11acf4e03f7f95d164d21d10ee170d7c878c9fd87871f7eaba9c4a66a1d617e7",
+      "lib/rngom-20051226-patched-2021.1.3.jar": "79505664af05074c5e2d4602278be0d9f3300efeeaed365ebae1f5f8097c0277",
+      "lib/roaringbitmap-2021.1.3.jar": "3ca1e74b0f5058819a6e35c0077977c768b56077310b8d968ca4bffba23df535",
+      "lib/rocksdbjni-6.15.2-2021.1.3.jar": "dc1c85b139208b59c79f27f6afb3ee2d328c0633fa391c10ec00a86ce7f181fa",
+      "lib/serviceMessages-2019.1.4-2021.1.3.jar": "8bfad3bc663424b7143fde7399e278e6c8202e021863937918314cf6e45a1251",
+      "lib/slf4j-2021.1.3.jar": "5b8d526b6126385986525cd201aafd68ad0c40b488c25663cfa0a904044486fc",
+      "lib/snakeyaml-1.27-2021.1.3.jar": "7e7cce6740ed705bfdfaac7b442c1375d2986d2f2935936a5bd40c14e18fd736",
+      "lib/snakeyaml-engine-2.2.1-2021.1.3.jar": "ad513c79ed02ca789742c229c85a789120b20011c16d905a1a42e2d97268d054",
+      "lib/spellchecker-2021.1.3.jar": "90bab320c5a98862c1f9c694061bfd180ef6d8f114e007ac3b4c24185b35e0f1",
+      "lib/sqlite-jdbc-3.34.0-2021.1.3.jar": "605979c94e7fe00437f1e10dcfa657a23f125c8eb4d2f0ec17e3f84613894cc3",
+      "lib/stats-2021.1.3.jar": "512f2a70b1cf15cf382ad3f6c0be1c381c1b11aa4442d1cac569dec4e77ea0ac",
+      "lib/stax-api-1.0.1-2021.1.3.jar": "d1968436fc216c901fb9b82c7e878b50fd1d30091676da95b2edd3a9c0ccf92e",
+      "lib/streamex-0.7.3-2021.1.3.jar": "eb7b670a193835d6af5b19a42f3a5fd99a18457a7164c74be52e38b0fb724c51",
+      "lib/structuralsearch-2021.1.3.jar": "24034367c13aab97be3c72f24c66b1a292d53c892c45e4738dbbc31a9d263bb4",
+      "lib/swingx-core-1.6.2-2-2021.1.3.jar": "0df80935d9bc3b3841bc621c6fef6615c93aaf80393ccaa196db11bf97784f18",
+      "lib/testFramework-2021.1.3.jar": "e3b616e75977cd8c9045afa97d3c7bbf5ea6c86f1617779dfb6a29b07da38a83",
+      "lib/testFramework-java-2021.1.3.jar": "870f28bed60e4372d5d9ce6b2f92a1fa5fee50b6ae36d2053910107610308de5",
+      "lib/testFramework.core-2021.1.3.jar": "7a67e3e2a5e60723af3cc33e0f78fbcbebc3f291c2ba8287c83b1953a4b5cc4a",
+      "lib/tests_bootstrap-2021.1.3.jar": "842ddbdabaf71ae651abdd22a8d544b0e18b5d6ad955c96ebf199207250a33a1",
+      "lib/tips-intellij-idea-community-211.20-2021.1.3.jar": "362d76c51efbe8f8a4ad68684c275526bc358fc4e569ded8cddc8b7c402a95d6",
+      "lib/trang-core-2021.1.3.jar": "a72a5a1a0ebb1839e3495edfb4ff73987850379fe8313b5bc729bc150f00ac12",
+      "lib/trove4j-2021.1.3.jar": "75294cb40a78795486ab1eb41ac6e3ecccf5735967a8a789a7acd28b33979ba5",
+      "lib/uast-tests-2021.1.3.jar": "754c58d60b8ac9cf482f3cbf7b825e76611c5742b0a1cd45f8fd10bd4dba535d",
+      "lib/util-2021.1.3.jar": "3fd5b2e7a48dd3c74c8ac6962b81d533aa8592064ac68523077880db07e9ff5d",
+      "lib/velocity-2021.1.3.jar": "672f4e1d12f74c21ded0711d6295f6f0b45498ed8436cced0e7c13117c784f59",
+      "lib/winp-1.28-2021.1.3.jar": "7a6f5b6e6d4294c3c7f9cb92920338193ef08c44fc0d638b539d3aae26fe567e",
+      "lib/xercesImpl-2.12.0-2021.1.3.jar": "d7474ada57d87a9d1d912eacd48289981888bcdb1afaee304233ac58e37a1988",
+      "lib/xml-apis-ext-1.3.04-2021.1.3.jar": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+      "lib/xml-resolver-1.2-2021.1.3.jar": "47dcde8986019314ef78ae7280a94973a21d2ed95075a40a000b42da956429e1",
+      "lib/xmlbeans-2.6.0-2021.1.3.jar": "c77974359688b2823b48fa9a33da68559d64f8474441480d9df4f9e254332a96",
+      "lib/xmlrpc-2.0.1-2021.1.3.jar": "36efda6efee96e83602c9ba246db19bf4c5e733324390d2fa8213417d6b681e7",
+      "lib/xstream-2021.1.3.jar": "1df89cfff7af94f4af0324d7c58124634c1938e431a17faf39fcd638b40bd118",
+      "lib/xz-1.8-2021.1.3.jar": "8c7964b36fe3f0cbe644b04fcbff84e491ce81917db2f5bfa0cba8e9548aff5d"
+    }
+  },
+  {
+    "group": "com.jetbrains.intellij.idea",
+    "name": "ideaIC",
+    "version": "2021.1.3",
+    "artifacts": {
+      "ideaIC-2021.1.3-sources.jar": "35f9f0f13b04e3a70a665fcd08b7d20c0b8002ae5f55f4fb5e09bd464cae89f7",
+      "ideaIC-2021.1.3.pom": "518258b4fcd9fa57dba8a95ad5908b130f65ff215255aa199f2fb58f562feeb8",
+      "ideaIC-2021.1.3.zip": "ec6aee9fde6e8d9fd5eb730309d63399878d8760107fbd1ddbe402f56eed9d86"
+    }
+  },
+  {
+    "group": "com.squareup.okhttp3",
+    "name": "okhttp",
+    "version": "4.3.1",
+    "artifacts": {
+      "okhttp-4.3.1.jar": "501189f0e8f5f05d388a2aded5e541aea8e990d18f87fd39b04301f648061aff",
+      "okhttp-4.3.1.pom": "159ae044bb7c94c650ff1542088bc64840f166420611de69b4e0fe33fda5518b"
+    }
+  },
+  {
+    "group": "com.squareup.okio",
+    "name": "okio",
+    "version": "2.4.1",
+    "artifacts": {
+      "okio-2.4.1.module": "ddef59f0eaa381853ad372b7958b511909f5d4c12fb75b5a7de322d1133b0c9f",
+      "okio-jvm-2.4.1.jar": "8b3ca9c9fb516ab2623bb4a3cfef0a5fa8580188eed9127cdefc1a0088d1fa7e"
+    }
+  },
+  {
+    "group": "com.squareup.retrofit2",
+    "name": "converter-jackson",
+    "version": "2.7.0",
+    "artifacts": {
+      "converter-jackson-2.7.0.jar": "fed2402bdcee13739e23c7e3baecc048563e532b191ce018e5ca2347200d8cb7",
+      "converter-jackson-2.7.0.pom": "26cfe03d475495b6aec93ca71e3407c89fa78bffa2c320933e47d1ee8bf0fedf"
+    }
+  },
+  {
+    "group": "com.squareup.retrofit2",
+    "name": "converter-jaxb",
+    "version": "2.7.0",
+    "artifacts": {
+      "converter-jaxb-2.7.0.jar": "3adbcd31b8ae6c58af91fd254e1111b497ea5e22366d4f53b81b87c95b5f2c00",
+      "converter-jaxb-2.7.0.pom": "a7270b716c105c0e7885fabf11753c61dd1856e6aa479589697d12d0c0f44bc9"
+    }
+  },
+  {
+    "group": "com.squareup.retrofit2",
+    "name": "parent",
+    "version": "2.7.0",
+    "artifacts": {
+      "parent-2.7.0.pom": "2547cbb4f73a77da7d813ca3e29c40e34d0fd9b42566689d05c8cbf739a5f21f"
+    }
+  },
+  {
+    "group": "com.squareup.retrofit2",
+    "name": "retrofit",
+    "version": "2.7.0",
+    "artifacts": {
+      "retrofit-2.7.0.jar": "4c1f5501aebe7684c4555bd57381013f80bdf56aa60fe87813d3ef8bf4f2ff9f",
+      "retrofit-2.7.0.pom": "51de388fb6c067b123c012d6484c9a651c04fb1c5c30daf6cfe41dcf91d02203"
+    }
+  },
+  {
+    "group": "com.squareup.retrofit2",
+    "name": "retrofit-converters",
+    "version": "2.7.0",
+    "artifacts": {
+      "retrofit-converters-2.7.0.pom": "5e613d8c7b0e7e503e39a59da485f69cb93e55afd7786064e333951ac8b543f8"
+    }
+  },
+  {
+    "group": "com.sun.activation",
+    "name": "all",
+    "version": "1.2.0",
+    "artifacts": {
+      "all-1.2.0.pom": "1d8518e3ac7532a104e4f7be77def37c982e530723c6bdb3d67708cce2b0c2c4"
+    }
+  },
+  {
+    "group": "com.sun.istack",
+    "name": "istack-commons",
+    "version": "3.0.7",
+    "artifacts": {
+      "istack-commons-3.0.7.pom": "6f83d3c85fdca9ef24010cb2f652aab1a508bff6331c087b60d0301782b78c6f"
+    }
+  },
+  {
+    "group": "com.sun.istack",
+    "name": "istack-commons-runtime",
+    "version": "3.0.7",
+    "artifacts": {
+      "istack-commons-runtime-3.0.7.jar": "6443e10ba2e259fb821d9b6becf10db5316285fc30c53cec9d7b19a3877e7fdf",
+      "istack-commons-runtime-3.0.7.pom": "6d704e450a816a45bce806ba22c22fe83d8e8dcf7a71517603de630a1726809f"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind",
+    "name": "jaxb-bom-ext",
+    "version": "2.3.0",
+    "artifacts": {
+      "jaxb-bom-ext-2.3.0.pom": "fbd7e1bd7b1ffe52966da8a1e210c74e4274fef0928752e3fdb90d5acce81593"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind",
+    "name": "jaxb-bom-ext",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-bom-ext-2.3.1.pom": "c2204f54b43593808c9af6502865ee71679823156dabdef341e71d35662c7aa0"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind",
+    "name": "jaxb-bom-ext",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-bom-ext-2.3.2.pom": "1a7dec2b27e7e055744cdb8cf1b90def4fd473acd1b804eff098139358959bd7"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind",
+    "name": "jaxb-core",
+    "version": "2.3.0",
+    "artifacts": {
+      "jaxb-core-2.3.0.jar": "33061af8d2a07379d452f8f0fddcbbf518428dfd3b83d9e2d479c1948020795b",
+      "jaxb-core-2.3.0.pom": "a5675af2bba722f818ef25a908eefbfd5cbcfc36d09de798c57ff2fbf0b86a67"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind",
+    "name": "jaxb-impl",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-impl-2.3.2.jar": "b3a3d3aeaa5503cadc24dca9539b87efcd7bc3bd8c48018887a1489f2a77bdc0",
+      "jaxb-impl-2.3.2.pom": "565c155012967597ce8d35140f262094a12612172289a4fe6453c3f0337877a1"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-bundles",
+    "version": "2.3.0",
+    "artifacts": {
+      "jaxb-bundles-2.3.0.pom": "02e66ba2c1b11c1afb8e9d54c5a8fcb82d43ea51b3f612b8265d650cba5e7e1f"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-bundles",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-bundles-2.3.2.pom": "98f694769f99fec316c1f8ac3e1c00b9533c57146027c0bb6ea04cf9dc018657"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-parent",
+    "version": "2.3.0",
+    "artifacts": {
+      "jaxb-parent-2.3.0.pom": "89da04ce572171bfdc387c9a4f06f491022f40d8164af4844118e93cc9870452"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-parent",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-parent-2.3.1.pom": "f699ef37ec7966e284742dfca83075221179041a9a49aef7991280192604462d"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-parent",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-parent-2.3.2.pom": "20dd6dc34ab7549ac40da1d82e92222ec4347ad0ec0cb118ef6c5703bed53a18"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-runtime-parent",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-runtime-parent-2.3.1.pom": "b56383eb4d43498b145d379e2a93d5fcdcd8ff9291f89b58b82cb91658dbf14c"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-txw-parent",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-txw-parent-2.3.1.pom": "7a8473e935504841c606686d84e9c017a739ac2c144fde687aa003a7dd44de7f"
+    }
+  },
+  {
+    "group": "com.sun.xml.fastinfoset",
+    "name": "FastInfoset",
+    "version": "1.2.15",
+    "artifacts": {
+      "FastInfoset-1.2.15.jar": "785861db11ca1bd0d1956682b974ad73eb19cd3e01a4b3fa82d62eca97210aec",
+      "FastInfoset-1.2.15.pom": "bbc796ab84a6778a751c2eff1136078abd2b4d35b5047062804f3582ef3c42c8"
+    }
+  },
+  {
+    "group": "com.sun.xml.fastinfoset",
+    "name": "fastinfoset-project",
+    "version": "1.2.15",
+    "artifacts": {
+      "fastinfoset-project-1.2.15.pom": "cfb8cdad4c0dd05ed8cacbe146bf1718764403947b9de8348e1bfd42f62ea73e"
+    }
+  },
+  {
+    "group": "commons-io",
+    "name": "commons-io",
+    "version": "2.6",
+    "artifacts": {
+      "commons-io-2.6.jar": "f877d304660ac2a142f3865badfc971dec7ed73c747c7f8d5d2f5139ca736513",
+      "commons-io-2.6.pom": "0c23863893a2291f5a7afdbd8d15923b3948afd87e563fa341cdcf6eae338a60"
+    }
+  },
+  {
+    "group": "de.undercouch",
+    "name": "gradle-download-task",
+    "version": "4.0.4",
+    "artifacts": {
+      "gradle-download-task-4.0.4.jar": "22a8588f83cdec1663f8fa900e0c98d2971c35680bc5c3bc34802322955955f4",
+      "gradle-download-task-4.0.4.pom": "0a5ae9f6588a1d6cfef4100dfaa9b987901d4a7cd3c0ce8a79b5163f36af8e56"
+    }
+  },
+  {
+    "group": "gradle.plugin.org.jetbrains.intellij.plugins",
+    "name": "gradle-grammarkit-plugin",
+    "version": "2021.1.2",
+    "artifacts": {
+      "gradle-grammarkit-plugin-2021.1.2.jar": "82c8fadabb6b96b2e1412d788c16c316a2a0a53c535a37f8058d3675d80cc64a",
+      "gradle-grammarkit-plugin-2021.1.2.pom": "55efe13c2a316956b610384666f97698abb2ecd494526025b9ead5068755fdc6"
+    }
+  },
+  {
+    "group": "javax.activation",
+    "name": "javax.activation-api",
+    "version": "1.2.0",
+    "artifacts": {
+      "javax.activation-api-1.2.0.jar": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393",
+      "javax.activation-api-1.2.0.pom": "da2926f3c8be898643cc10acdec6de0b0351a57fb2735770fa0177b06ade71b9"
+    }
+  },
+  {
+    "group": "javax.xml.bind",
+    "name": "jaxb-api",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-api-2.3.1.jar": "88b955a0df57880a26a74708bc34f74dcaf8ebf4e78843a28b50eae945732b06",
+      "jaxb-api-2.3.1.pom": "12b20cf922773445c3445c2883cbf671fa982111e9bf9f875020f9313b3814b1"
+    }
+  },
+  {
+    "group": "javax.xml.bind",
+    "name": "jaxb-api-parent",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-api-parent-2.3.1.pom": "cd1beaa4560dc4dfdb826b9d809e464db22526dfb54264bae78a6ff7efb08e1f"
+    }
+  },
+  {
+    "group": "junit",
+    "name": "junit",
+    "version": "4.13",
+    "artifacts": {
+      "junit-4.13.jar": "4b8532f63bdc0e0661507f947eb324a954d1dbac631ad19c8aa9a00feed1d863",
+      "junit-4.13.pom": "9a0dc4c3fa2b086e708226737ef4bb37847c3cb1ce4e203517c09f6305b2267e"
+    }
+  },
+  {
+    "group": "net.java",
+    "name": "jvnet-parent",
+    "version": "1",
+    "artifacts": {
+      "jvnet-parent-1.pom": "281440811268e65d9e266b3cc898297e214e04f09740d0386ceeb4a8923d63bf"
+    }
+  },
+  {
+    "group": "net.java",
+    "name": "jvnet-parent",
+    "version": "5",
+    "artifacts": {
+      "jvnet-parent-5.pom": "1af699f8d9ddab67f9a0d202fbd7915eb0362a5a6dfd5ffc54cafa3465c9cb0a"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "18",
+    "artifacts": {
+      "apache-18.pom": "7831307285fd475bbc36b20ae38e7882f11c3153b1d5930f852d44eda8f33c17"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "21",
+    "artifacts": {
+      "apache-21.pom": "af10c108da014f17cafac7b52b2b4b5a3a1c18265fa2af97a325d9143537b380"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.20",
+    "artifacts": {
+      "commons-compress-1.20.jar": "0aeb625c948c697ea7b205156e112363b59ed5e2551212cd4e460bdb72c7c06e",
+      "commons-compress-1.20.pom": "d95678e3af56b17c7db6cff9645efad5eb59be9f3c1caaaf5f0146edf04691d7"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "42",
+    "artifacts": {
+      "commons-parent-42.pom": "cd313494c670b483ec256972af1698b330e598f807002354eb765479f604b09c"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "48",
+    "artifacts": {
+      "commons-parent-48.pom": "1e1f7de9370a7b7901f128f1dacd1422be74e3f47f9558b0f79e04c0637ca0b4"
+    }
+  },
+  {
+    "group": "org.apiguardian",
+    "name": "apiguardian-api",
+    "version": "1.1.0",
+    "artifacts": {
+      "apiguardian-api-1.1.0.jar": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4",
+      "apiguardian-api-1.1.0.pom": "a945b9cb5cd9b77b2c711844e659c43ec070ef59d9f509fa9f4c1861b4862711"
+    }
+  },
+  {
+    "group": "org.atteo",
+    "name": "evo-inflector",
+    "version": "1.2.2",
+    "artifacts": {
+      "evo-inflector-1.2.2.jar": "c485c110870c597ba401dda2c7c5819a3b2e15ee064f539323138302bd591d48",
+      "evo-inflector-1.2.2.pom": "b1589430f07dbed6fc150c312ebde99c838a13edf436b19d8283f35a4431c20f"
+    }
+  },
+  {
+    "group": "org.atteo",
+    "name": "parent",
+    "version": "1.14",
+    "artifacts": {
+      "parent-1.14.pom": "699222bde235844a410d8330e1d62fd43d78e4d1ef3a3ca71c61acdf6410a746"
+    }
+  },
+  {
+    "group": "org.eclipse.ee4j",
+    "name": "project",
+    "version": "1.0.5",
+    "artifacts": {
+      "project-1.0.5.pom": "916b4794d8d8220a59a3fdf6a64dbe794aeb23395e888b81ae36a9b5a2c591a6"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-bom",
+    "version": "2.3.0",
+    "artifacts": {
+      "jaxb-bom-2.3.0.pom": "f4fe96325567aebe0f2f34d18c71261dd3a5d6610f5df6eb97fd7de4185e5714"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-bom",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-bom-2.3.1.pom": "6cc1266cf306557b4f2d09cbd8cd6e75b5ef0c5773ca4ef763d4f730df947b64"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-bom",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-bom-2.3.2.pom": "a1018bb54678ed9f5acb2f7a4084e385ff510201f4e9dbf5f75dc6a675f66be7"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-runtime",
+    "version": "2.3.1",
+    "artifacts": {
+      "jaxb-runtime-2.3.1.jar": "45fecfa5c8217ce1f3652ab95179790ec8cc0dec0384bca51cbeb94a293d9f2f",
+      "jaxb-runtime-2.3.1.pom": "f8101b86157fbfc01949ffdc7c59ea71ca23b7ece25f6a79061fe01cb750ff00"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "txw2",
+    "version": "2.3.1",
+    "artifacts": {
+      "txw2-2.3.1.jar": "34975dde1c6920f1a39791142235689bc3cd357e24d05edd8ff93b885bd68d60",
+      "txw2-2.3.1.pom": "4714d46cacf702ab2cd478d6048c5d9cc57abdb55f4c07b6b7aa72799e02d36c"
+    }
+  },
+  {
+    "group": "org.hamcrest",
+    "name": "hamcrest-core",
+    "version": "1.3",
+    "artifacts": {
+      "hamcrest-core-1.3.jar": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+      "hamcrest-core-1.3.pom": "fde386a7905173a1b103de6ab820727584b50d0e32282e2797787c20a64ffa93"
+    }
+  },
+  {
+    "group": "org.hamcrest",
+    "name": "hamcrest-parent",
+    "version": "1.3",
+    "artifacts": {
+      "hamcrest-parent-1.3.pom": "6d535f94efb663bdb682c9f27a50335394688009642ba7a9677504bc1be4129b"
+    }
+  },
+  {
+    "group": "org.jdom",
+    "name": "jdom",
+    "version": "2.0.2",
+    "artifacts": {
+      "jdom-2.0.2.jar": "2bdf7a48fddc9259f5aa420eee328e939d71302a6a1b79a176e4fd47ee988b97",
+      "jdom-2.0.2.pom": "99b357e158f3f06f50bbece279752045ce3e445a4e0be32db1c45146c98bc3c2"
+    }
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "13.0",
+    "artifacts": {
+      "annotations-13.0.jar": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+      "annotations-13.0.pom": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+    }
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "19.0.0",
+    "artifacts": {
+      "annotations-19.0.0.jar": "12ff01eeaf0c09c6a68f2ec024b3bf9fa4cad6e68b74b968bf62c7f759047032",
+      "annotations-19.0.0.pom": "c8bf8cf6f84cc58d2df52f337e1008a87693a9becc5da14154df73a0dbd9513d"
+    }
+  },
+  {
+    "group": "org.jetbrains.changelog",
+    "name": "org.jetbrains.changelog.gradle.plugin",
+    "version": "0.6.2",
+    "artifacts": {
+      "org.jetbrains.changelog.gradle.plugin-0.6.2.pom": "8245b669d8abd8a876e76344db7f1460432cfda6a2bc415552b721a18b0e8035"
+    }
+  },
+  {
+    "group": "org.jetbrains.grammarkit",
+    "name": "org.jetbrains.grammarkit.gradle.plugin",
+    "version": "2021.1.2",
+    "artifacts": {
+      "org.jetbrains.grammarkit.gradle.plugin-2021.1.2.pom": "170ac73fe4364ba55e86b807c4cbf569c6da18bbe0f506cea5df389090a7532d"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij",
+    "name": "blockmap",
+    "version": "1.0.5",
+    "artifacts": {
+      "blockmap-1.0.5.jar": "893bee8d61d030124e389e0cbbe06e183cfb5f95d62691f605c05a8fd0338c29",
+      "blockmap-1.0.5.module": "b6a505bcb5fb750f2d3496a770f93a2a3da5d709c270f1b689e5ce8fee782e4a"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij",
+    "name": "org.jetbrains.intellij.gradle.plugin",
+    "version": "0.7.3",
+    "artifacts": {
+      "org.jetbrains.intellij.gradle.plugin-0.7.3.pom": "965e4c49dfb24f1c50b1a62348ef82392b30eacf171aa72decc9f1b6c65b53ff"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij",
+    "name": "plugin-repository-rest-client",
+    "version": "2.0.15",
+    "artifacts": {
+      "plugin-repository-rest-client-2.0.15.jar": "3a649e40d3e26be972172bbe7bb66a5c042f12b0434b2d8f318db1989694dbcf",
+      "plugin-repository-rest-client-2.0.15.pom": "983b708a1dcb2555615d68fb816e6c2ba85abc5557d3b09f66a4222ee5760dd1"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.deps.jflex",
+    "name": "jflex",
+    "version": "1.7.0-1",
+    "artifacts": {
+      "jflex-1.7.0-1.jar": "67b5fe2b30fa55c098da1afd9db8f19229215d37d80b960313b57c9fae27c3a0",
+      "jflex-1.7.0-1.pom": "6f91dc316fc76a05cab7356ceb2266d4d4ba14d200f26894be9c2598e592f41c"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.deps.jflex",
+    "name": "jflex-parent",
+    "version": "1.7.0-1",
+    "artifacts": {
+      "jflex-parent-1.7.0-1.pom": "59f3b45406ec567b8f49031ba923173d628efbf8a51a0f2c171eb45a2ca69857"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.plugins",
+    "name": "gradle-changelog-plugin",
+    "version": "0.6.2",
+    "artifacts": {
+      "gradle-changelog-plugin-0.6.2.jar": "9d2071ae224f47bec223fc66a09dfbdc4d3806d81ea53e7ebd14a304abb83a4f",
+      "gradle-changelog-plugin-0.6.2.pom": "099ff35116a478e3c82c9c2405c7914b516a5cd8357367b1c2f6b6dd4d6c6c76"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.plugins",
+    "name": "gradle-intellij-plugin",
+    "version": "0.7.3",
+    "artifacts": {
+      "gradle-intellij-plugin-0.7.3.jar": "8d71cbfab0f872ee6181962386ba17df53b55b90590fe0880eb814a2d8e6151e",
+      "gradle-intellij-plugin-0.7.3.module": "1e0c6bdb535d626e9797f0a1b5417c879c878d1f425128043b3375310b458b2c"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.plugins",
+    "name": "structure-base",
+    "version": "3.171",
+    "artifacts": {
+      "structure-base-3.171.jar": "b4ec8449382fcdb0f384acb8eed44c6e51c8216475a245599922755998ebe8cb",
+      "structure-base-3.171.pom": "7f9d1b58287c4928dbc6db23739e12191d0f7f3001bede200a5de265577ee450"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.plugins",
+    "name": "structure-intellij",
+    "version": "3.171",
+    "artifacts": {
+      "structure-intellij-3.171.jar": "037d026abcd8ff0520deb2c27bbbbd75ef69d93b861a34e035ac3a53881bb835",
+      "structure-intellij-3.171.pom": "d97d0894091150c113b6692c614666e749776d9a7d127db1ff73c06b5b24ec84"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-reflect",
+    "version": "1.3.72",
+    "artifacts": {
+      "kotlin-reflect-1.3.72.jar": "a188d9367de1c4ee9479db630985c0597b20709c83161b1430d24edb27e38c40",
+      "kotlin-reflect-1.3.72.pom": "61653ccfae8caa4203e267b479821bd90faab3fef744a7ab0fdd9f61150f970c"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib",
+    "version": "1.3.72",
+    "artifacts": {
+      "kotlin-stdlib-1.3.72.jar": "3856a7349ebacd6d1be6802b2fed9c4dc2c5a564ea92b6b945ac988243d4b16b",
+      "kotlin-stdlib-1.3.72.pom": "4f0d574a969ea93c45628a163e1ed3ffabb4584278d72c647ec124f8c8109481"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-common",
+    "version": "1.3.72",
+    "artifacts": {
+      "kotlin-stdlib-common-1.3.72.jar": "5e7d1552863e480c1628b1cc39ce230ef829f5b7230106215a05acda5172203a",
+      "kotlin-stdlib-common-1.3.72.pom": "24781edf5b0934804930dcafc8911b9e710d146239a82699889132e7b37be9dc"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "1.3.72",
+    "artifacts": {
+      "kotlin-stdlib-jdk7-1.3.72.jar": "40566c0c08d414b9413ba556ff7f8a0b04b98b9f0f424d122dd2088510efccc4",
+      "kotlin-stdlib-jdk7-1.3.72.pom": "9d5a13d9abc33445e1366d258af0a77e42f01945acef7c0917b9d539854e2fce"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "1.3.72",
+    "artifacts": {
+      "kotlin-stdlib-jdk8-1.3.72.jar": "133da70cfc07b56094282eac5c59bccd59f167ee2ead22e5282876d8bc10bf95",
+      "kotlin-stdlib-jdk8-1.3.72.pom": "a6d50f0321bdb52838c99136930c8dcc78c3074a592d526862ec01be91fa622b"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-html-assembly",
+    "version": "0.7.2",
+    "artifacts": {
+      "kotlinx-html-assembly-0.7.2.pom": "7e99feb570f79ef0644d059e60fa75bfbfc0cd09fe1fae120136d87c33a45303"
+    }
+  },
+  {
+    "group": "org.jsoup",
+    "name": "jsoup",
+    "version": "1.9.2",
+    "artifacts": {
+      "jsoup-1.9.2.jar": "9c1885f1b182256e06f1e30b8451caed0c0dee96299d6348f968d18b54d0a46a",
+      "jsoup-1.9.2.pom": "93a219081bb855ff1d76c91a8ff9562234b8601e0bae59e2845e3e8691ed097e"
+    }
+  },
+  {
+    "group": "org.junit",
+    "name": "junit-bom",
+    "version": "5.7.0",
+    "artifacts": {
+      "junit-bom-5.7.0.module": "25de454b3add67654d6691b53de7593b502967b5ff549547b104d7961f1a52bd"
+    }
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter",
+    "version": "5.7.0",
+    "artifacts": {
+      "junit-jupiter-5.7.0.jar": "f15ebc08c85be1f46cd2aff06d6125e5083da0f527cd434f8b5431b5b0a1abd0",
+      "junit-jupiter-5.7.0.module": "1c8af49c570d53f6c8297591a18f1afb90fae1dcc1c786cd36eac475e070b9e4"
+    }
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter-api",
+    "version": "5.7.0",
+    "artifacts": {
+      "junit-jupiter-api-5.7.0.jar": "b03f78e0daeed2d77a0af9bcd662b4cdb9693f7ee72e01a539b508b84c63d182",
+      "junit-jupiter-api-5.7.0.module": "d1a7bae6cd44ad6d96715261410eef2338a494436d667280d1373a47c17e241c"
+    }
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter-engine",
+    "version": "5.7.0",
+    "artifacts": {
+      "junit-jupiter-engine-5.7.0.jar": "dfa26af94644ac2612dde6625852fcb550a0d21caa243257de54cba738ba87af",
+      "junit-jupiter-engine-5.7.0.module": "c36bda48228eef5c40cdc9a9d6303bb848382cdb0884b3677d49182b4ec7a1a4"
+    }
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter-params",
+    "version": "5.7.0",
+    "artifacts": {
+      "junit-jupiter-params-5.7.0.jar": "ca9f555c37b9bf79effd2e834af549e4feb52ad8ac9e348fe5b430d4d8a482b7",
+      "junit-jupiter-params-5.7.0.module": "23561cb313916ed459a3a4c325c1573f7dc41f89c14fbea4328aa8c87782baaf"
+    }
+  },
+  {
+    "group": "org.junit.platform",
+    "name": "junit-platform-commons",
+    "version": "1.7.0",
+    "artifacts": {
+      "junit-platform-commons-1.7.0.jar": "5330ee87cc7586e6e25175a34e9251624ff12ff525269d3415d0b4ca519b6fea",
+      "junit-platform-commons-1.7.0.module": "b0a5c7a1b7e409d1f5cc963d9aea1c77c34b90e163d6842a4489c6aa07ff8ee2"
+    }
+  },
+  {
+    "group": "org.junit.platform",
+    "name": "junit-platform-engine",
+    "version": "1.7.0",
+    "artifacts": {
+      "junit-platform-engine-1.7.0.jar": "75f21a20dc594afdc875736725b408cec6d0344874d29f34b2dd3075500236f2",
+      "junit-platform-engine-1.7.0.module": "6510a9fa881cef42d41485538dbc54749426db1e0b14ec433915ea5f2448079a"
+    }
+  },
+  {
+    "group": "org.junit.vintage",
+    "name": "junit-vintage-engine",
+    "version": "5.7.0",
+    "artifacts": {
+      "junit-vintage-engine-5.7.0.jar": "75644937ecec00284d0a1a228e99f2010c92b15d63f8d443ef0cd01bf554fcfd",
+      "junit-vintage-engine-5.7.0.module": "a7e7eb6902e9e90936adb32614af6c2c3813088427fe6ada4f5fc85b1ac6ff4c"
+    }
+  },
+  {
+    "group": "org.jvnet.staxex",
+    "name": "stax-ex",
+    "version": "1.8",
+    "artifacts": {
+      "stax-ex-1.8.jar": "95b05d9590af4154c6513b9c5dc1fb2e55b539972ba0a9ef28e9a0c01d83ad77",
+      "stax-ex-1.8.pom": "0a84c20cf71f6a3d21fe226b0d588332fc7ae3e90cb583c60a483317eb9f3644"
+    }
+  },
+  {
+    "group": "org.opentest4j",
+    "name": "opentest4j",
+    "version": "1.2.0",
+    "artifacts": {
+      "opentest4j-1.2.0.jar": "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2",
+      "opentest4j-1.2.0.pom": "a96e671816c1ff8803bdec74c9241f025bdfb277da5d2b4ee02266405936f994"
+    }
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "1.7.21",
+    "artifacts": {
+      "slf4j-api-1.7.21.pom": "5f2bdf26ffa2dae84af2c9df8438532a6c703a5e9f7f998e9b1cd600fdd54fdc"
+    }
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "1.7.26",
+    "artifacts": {
+      "slf4j-api-1.7.26.jar": "6d9e5b86cfd1dd44c676899285b5bb4fa0d371cf583e8164f9c8a0366553242b",
+      "slf4j-api-1.7.26.pom": "8392b80830ed0d6a714235eb9a06cc26e46619ef4bec53a2233e1dc34b8db949"
+    }
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-parent",
+    "version": "1.7.21",
+    "artifacts": {
+      "slf4j-parent-1.7.21.pom": "7aaa257f5ded516c93c07586c1ed139ed50ee5a4ff619e6f58bba17f49d13bae"
+    }
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-parent",
+    "version": "1.7.26",
+    "artifacts": {
+      "slf4j-parent-1.7.26.pom": "35d115b3c99730ec8a08b0fc2cb31cfbe633e7933c4fb63805e01a120bf4175e"
+    }
+  },
+  {
+    "group": "org.sonatype.oss",
+    "name": "oss-parent",
+    "version": "7",
+    "artifacts": {
+      "oss-parent-7.pom": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454"
+    }
+  },
+  {
+    "group": "org.tukaani",
+    "name": "xz",
+    "version": "1.6",
+    "artifacts": {
+      "xz-1.6.jar": "a594643d73cc01928cf6ca5ce100e094ea9d73af760a5d4fb6b75fa673ecec96",
+      "xz-1.6.pom": "06843f984cf0ad3ecd4196861404ddc4af83ec37a1eb7a1773ab89db02b4020f"
+    }
+  },
+  {
+    "group": "software.amazon.awssdk",
+    "name": "aws-sdk-java-pom",
+    "version": "2.11.9",
+    "artifacts": {
+      "aws-sdk-java-pom-2.11.9.pom": "552869722d6845a8b161ce5e04fa9c0bc53d410364ed297dc6b04bf45117cc31"
+    }
+  },
+  {
+    "group": "software.amazon.awssdk",
+    "name": "bom",
+    "version": "2.11.9",
+    "artifacts": {
+      "bom-2.11.9.pom": "452a9c9e3f3eda2b895115246045ca80024ecbd0470eafab2b5bf1b44b689b59"
+    }
+  }
+]
