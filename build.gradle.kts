@@ -15,7 +15,7 @@ buildscript {
     }
 }
 
-if(project.hasProperty("nixMavenRepo")) {
+if (project.hasProperty("nixMavenRepo")) {
     repositories {
         maven { url = uri(project.property("nixMavenRepo")!!) }
     }
