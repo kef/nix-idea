@@ -23,6 +23,7 @@
         #defaultApp = apps.nix-idea;
 
         updateLocks = xxx.updateLocks;
+        gradle = xxx.gradle;
       }
     );
 }

@@ -3,6 +3,41 @@ import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.grammarkit.tasks.GenerateLexer
 import org.jetbrains.grammarkit.tasks.GenerateParser
 
+// jcenter() = https://jcenter.bintray.com/
+// mavenLocal()
+
+buildscript {
+    if (project.hasProperty("nixMavenRepo")) {
+        repositories {
+            maven { url = uri(project.property("nixMavenRepo")!!) }
+        }
+    } else {
+        repositories {
+            gradlePluginPortal()
+        }
+    }
+
+//    dependencies {
+//        classpath ("com.android.tools.build:gradle:4.1.3")
+//        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+//    }
+}
+
+if(project.hasProperty("nixMavenRepo")) {
+    repositories {
+        maven { url = uri(project.property("nixMavenRepo")!!) }
+    }
+} else {
+    repositories {
+        mavenCentral()
+// https://www.jitpack.io/
+// https://cache-redirector.jetbrains.com/intellij-dependencies/
+    }
+}
+
 plugins {
     // Java support
     id("java")
@@ -31,11 +66,6 @@ version = pluginVersion
 // Set the compatibility versions to 1.8
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
-}
-
-// Configure project's dependencies
-repositories {
-    mavenCentral()
 }
 
 dependencies {
@@ -148,5 +178,4 @@ tasks {
         token(System.getenv("JETBRAINS_TOKEN"))
         channels(pluginVersion.split('-').getOrElse(1) { "default" }.split('.').first())
     }
-
 }
