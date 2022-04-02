@@ -3,9 +3,6 @@ import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.grammarkit.tasks.GenerateLexer
 import org.jetbrains.grammarkit.tasks.GenerateParser
 
-// jcenter() = https://jcenter.bintray.com/
-// mavenLocal()
-
 buildscript {
     if (project.hasProperty("nixMavenRepo")) {
         repositories {
@@ -16,14 +13,6 @@ buildscript {
             gradlePluginPortal()
         }
     }
-
-//    dependencies {
-//        classpath ("com.android.tools.build:gradle:4.1.3")
-//        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
-//    }
 }
 
 if(project.hasProperty("nixMavenRepo")) {
@@ -33,8 +22,6 @@ if(project.hasProperty("nixMavenRepo")) {
 } else {
     repositories {
         mavenCentral()
-// https://www.jitpack.io/
-// https://cache-redirector.jetbrains.com/intellij-dependencies/
     }
 }
 
