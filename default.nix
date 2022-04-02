@@ -16,7 +16,6 @@ lib.makeScope newScope (self: with self; {
     repos = [
       "https://plugins.gradle.org/m2"
       "https://repo1.maven.org/maven2"
-#      "https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev"
     ];
     deps = builtins.fromJSON (builtins.readFile ./deps.json);
   };
