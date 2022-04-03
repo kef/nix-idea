@@ -12,9 +12,9 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       rec {
-        xxx = import ./default.nix { inherit pkgs; };
-        packages.nix-idea = xxx.builtWithGradle;
-        packages.updateLocks = xxx.updateLocks;
+        default = import ./default.nix { inherit pkgs; };
+        packages.nix-idea = default.builtWithGradle;
+        packages.updateLocks = default.updateLocks;
         defaultPackage = packages.nix-idea;
 
         #apps.nix-idea = {
