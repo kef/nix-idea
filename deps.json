@@ -81,7 +81,7 @@
     "name": "ideaIC",
     "version": "2021.1.3",
     "artifacts": {
-      "ivy-2021.1.3.xml": "5846697469fdc2223b53d26c76c30d108a30f6d2eccb369681bf8d511d7ebbb8",
+      "ivy-2021.1.3.xml": "e2f481693d7a6542dbdfb86454dc04c21abc8e70d2670423f9a185bdc049b605",
       "lib/HdrHistogram-2.1.4-2021.1.3.jar": "8e68b9608ab107690350b904eab24087785f69218e5c6acd860d28116eded708",
       "lib/aapt2-proto-0.3.1-2021.1.3.jar": "a503219b89b0aaf7b7c6c9b3b17d69e655a6c619072b684a1ea4fbf1d7dc49da",
       "lib/ant/lib/ant-2021.1.3.jar": "a31f74f3d00929ed0028f0d5c58c9a549c5885ef7d90db06f5ba1737e9c4520b",

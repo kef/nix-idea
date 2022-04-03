@@ -14,6 +14,7 @@
       rec {
         xxx = import ./default.nix { inherit pkgs; };
         packages.nix-idea = xxx.builtWithGradle;
+        packages.updateLocks = xxx.updateLocks;
         defaultPackage = packages.nix-idea;
 
         #apps.nix-idea = {
@@ -21,9 +22,6 @@
           #program = "${packages.nix-idea}/bin/gradle2nix";
         #};
         #defaultApp = apps.nix-idea;
-
-        updateLocks = xxx.updateLocks;
-        gradle = xxx.gradle;
       }
     );
 }
