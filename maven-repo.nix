@@ -23,9 +23,15 @@ let
     , file
     , sha256
     }:
+    # TODO Tidy this up.
+    let
+      xxx = map (repo: "${repo}/${mavenize "/" group}/${name}/${version}/${file}") repos;
+    in
     fetchurl {
-      name = file;
-      urls = map (repo: "${repo}/${mavenize "/" group}/${name}/${version}/${file}") repos;
+      name = builtins.trace (baseNameOf file) (baseNameOf file);
+#      name = replaceStrings ["/"] ["-"] file;
+#      name = builtins.trace name file;
+      urls = builtins.trace (builtins.toString xxx) xxx;
       inherit sha256;
       meta.platforms = platforms.all;
     };

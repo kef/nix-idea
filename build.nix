@@ -1,6 +1,5 @@
 { lib
 , stdenv
-, jdk
 , gradle
 , mavenRepo
 }:
@@ -10,8 +9,6 @@ stdenv.mkDerivation {
   version = "0.0";
   
   nativeBuildInputs = [ gradle ];
-  
-  JDK_HOME = "${jdk.home}";
   
   buildPhase = ''
     runHook preBuild
