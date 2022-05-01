@@ -1,5 +1,6 @@
 { lib
 , stdenv
+, jdk
 , gradle
 , mavenRepo
 }:
@@ -7,9 +8,13 @@
 stdenv.mkDerivation {
   pname = "built-with-gradle";
   version = "0.0";
-  
+
+  src = ./.;
+
   nativeBuildInputs = [ gradle ];
-  
+
+  JDK_HOME = "${jdk.home}";
+
   buildPhase = ''
     runHook preBuild
     gradle build \

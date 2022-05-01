@@ -9,5 +9,5 @@ let
   };
 in
   callPackage xxx {
-    java = jdk;
+#    java = jdk;
   }

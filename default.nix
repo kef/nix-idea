@@ -3,7 +3,8 @@
 with pkgs;
 
 lib.makeScope newScope (self: with self; {
-  gradle = callPackage ./gradle.nix { jdk = adoptopenjdk-hotspot-bin-11; };
+#  gradle = callPackage ./gradle.nix { jdk = adoptopenjdk-hotspot-bin-11; };
+  gradle = callPackage ./gradle.nix { jdk = jdk11; };
 
   updateLocks = callPackage ./update-locks.nix {
     inherit (haskellPackages) xml-to-json;
@@ -32,5 +33,6 @@ lib.makeScope newScope (self: with self; {
     deps = builtins.fromJSON (builtins.readFile ./deps.json);
   };
 
-  builtWithGradle = callPackage ./build.nix { };
+#  builtWithGradle = callPackage ./build.nix { jdk = adoptopenjdk-hotspot-bin-11; };
+  builtWithGradle = callPackage ./build.nix { jdk = jdk11; };
 })
