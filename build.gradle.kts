@@ -8,7 +8,7 @@ plugins {
     // gradle-intellij-plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
     id("org.jetbrains.intellij") version "1.5.3"
     // gradle-changelog-plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
-    id("org.jetbrains.changelog") version "0.6.2"
+    id("org.jetbrains.changelog") version "1.3.1"
     // grammarkit - read more: https://github.com/JetBrains/gradle-grammar-kit-plugin
     id("org.jetbrains.grammarkit") version "2021.1.2"
 }
@@ -52,7 +52,7 @@ intellij {
 }
 
 changelog {
-    headerParserRegex = "^[-._+0-9a-zA-Z]+\$"
+    headerParserRegex.set("^[-._+0-9a-zA-Z]+\$")
 }
 
 grammarKit {
