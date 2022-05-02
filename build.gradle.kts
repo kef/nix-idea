@@ -2,6 +2,8 @@ import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.grammarkit.tasks.GenerateLexer
 import org.jetbrains.grammarkit.tasks.GenerateParser
 
+fun properties(key: String) = project.findProperty(key).toString()
+
 plugins {
     // Java support
     id("java")
@@ -13,18 +15,8 @@ plugins {
     id("org.jetbrains.grammarkit") version "2021.1.2"
 }
 
-// Import variables from gradle.properties file
-val pluginGroup: String by project
-val pluginVersion: String by project
-val pluginSinceBuild: String by project
-val pluginUntilBuild: String by project
-val pluginVerifierIdeVersions: String by project
-
-val platformType: String by project
-val platformVersion: String by project
-
-group = pluginGroup
-version = pluginVersion
+group = properties("pluginGroup")
+version = properties("pluginVersion")
 
 // Set the compatibility versions to 1.8
 java {
@@ -45,9 +37,9 @@ dependencies {
 // Configure gradle-intellij-plugin plugin.
 // Read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
-    pluginName.set(property("pluginName") as String)
-    version.set(platformVersion)
-    type.set(platformType)
+    pluginName.set(properties("pluginName"))
+    version.set(properties("platformVersion"))
+    type.set(properties("platformType"))
     updateSinceUntilBuild.set(true)
 }
 
@@ -78,10 +70,10 @@ tasks {
         doLast {
             val dir = project.buildDir.resolve("metadata")
             dir.mkdirs()
-            dir.resolve("version.txt").writeText(pluginVersion)
+            dir.resolve("version.txt").writeText(properties("pluginVersion"))
             dir.resolve("zipfile.txt").writeText(buildPlugin.get().archiveFile.get().toString())
             dir.resolve("latest_changelog.md").writeText(changelog.getLatest().toText())
-            dir.resolve("pluginVerifierIdeVersions.txt").writeText(pluginVerifierIdeVersions)
+            dir.resolve("pluginVerifierIdeVersions.txt").writeText(properties("pluginVerifierIdeVersions"))
         }
     }
 
@@ -109,9 +101,9 @@ tasks {
     }
 
     patchPluginXml {
-        version.set(pluginVersion)
-        sinceBuild.set(pluginSinceBuild)
-        untilBuild.set(pluginUntilBuild)
+        version.set(properties("pluginVersion"))
+        sinceBuild.set(properties("pluginSinceBuild"))
+        untilBuild.set(properties("pluginUntilBuild"))
 
         // Extract the <!-- Plugin description --> section from README.md and provide for the plugin's manifest
         pluginDescription.set(provider {
@@ -131,12 +123,12 @@ tasks {
     }
 
     runPluginVerifier {
-        ideVersions.set(pluginVerifierIdeVersions.split(","))
+        ideVersions.set(properties("pluginVerifierIdeVersions").split(","))
         failureLevel.set(org.jetbrains.intellij.tasks.RunPluginVerifierTask.FailureLevel.ALL)
     }
 
     publishPlugin {
         token.set(System.getenv("JETBRAINS_TOKEN"))
-        channels.set(listOf(pluginVersion.split('-').getOrElse(1) { "default" }.split('.').first()))
+        channels.set(listOf(properties("pluginVersion").split('-').getOrElse(1) { "default" }.split('.').first()))
     }
 }
