@@ -1,6 +1,4 @@
 import org.jetbrains.changelog.markdownToHTML
-import org.jetbrains.grammarkit.tasks.GenerateLexer
-import org.jetbrains.grammarkit.tasks.GenerateParser
 
 fun properties(key: String) = project.findProperty(key).toString()
 
@@ -12,15 +10,15 @@ plugins {
     // gradle-changelog-plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
     id("org.jetbrains.changelog") version "1.3.1"
     // grammarkit - read more: https://github.com/JetBrains/gradle-grammar-kit-plugin
-    id("org.jetbrains.grammarkit") version "2021.1.2"
+    id("org.jetbrains.grammarkit") version "2021.2.2"
 }
 
 group = properties("pluginGroup")
 version = properties("pluginVersion")
 
-// Set the compatibility versions to 1.8
+// Set the compatibility versions to 1.11
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_11
 }
 
 // Configure project's dependencies
@@ -49,10 +47,10 @@ changelog {
 
 grammarKit {
     // version of IntelliJ patched JFlex (see bintray link below), Default is 1.7.0-1
-    jflexRelease = "1.7.0-1"
+    jflexRelease.set("1.7.0-1")
 
-    // tag or short commit hash of Grammar-Kit to use (see link below). Default is 2020.1
-    grammarKitRelease = "2020.1"
+    // tag or short commit hash of Grammar-Kit to use (see link below). Default is 2020.1.2
+    grammarKitRelease.set("2021.1.2")
 }
 
 sourceSets {
@@ -77,23 +75,23 @@ tasks {
         }
     }
 
-    val generateNixLexer by registering(GenerateLexer::class) {
-        source = "src/main/lang/Nix.flex"
-        targetDir = "src/gen/java/org/nixos/idea/lang"
-        targetClass = "_NixLexer"
-        purgeOldFiles = true
+    generateLexer {
+        source.set("src/main/lang/Nix.flex")
+        targetDir.set("src/gen/java/org/nixos/idea/lang")
+        targetClass.set("_NixLexer")
+        purgeOldFiles.set(true)
     }
 
-    val generateNixParser by registering(GenerateParser::class) {
-        source = "src/main/lang/Nix.bnf"
-        targetRoot = "src/gen/java"
-        pathToParser = "/org/nixos/idea/lang/NixParser"
-        pathToPsiRoot = "/org/nixos/idea/psi"
-        purgeOldFiles = true
+    generateParser {
+        source.set("src/main/lang/Nix.bnf")
+        targetRoot.set("src/gen/java")
+        pathToParser.set("/org/nixos/idea/lang/NixParser")
+        pathToPsiRoot.set("/org/nixos/idea/psi")
+        purgeOldFiles.set(true)
     }
 
     compileJava {
-        dependsOn(generateNixLexer, generateNixParser)
+        dependsOn(generateLexer, generateParser)
     }
 
     test {
